@@ -9,40 +9,40 @@
   
 ## Acessar Sistema
 
-* Altere as seguintes informações antes de iniciar:
+### Altere as seguintes informações antes de iniciar:
 
- ** Preencha com ip do servidor os arquivos:
+ #### Preencha com ip do servidor os arquivos:
   - CapsulaDoTempo\web\next.config.js
   - CapsulaDoTempo\web\src\lib\api.ts
   - CapsulaDoTempo\mobile\src\assets\lib\api.ts
 
- ** Comente as linhas que não for usar, deixe comentada as linhas do mobile se for usar web e vice versa, isso no arquivo:
+ #### Comente as linhas que não for usar, deixe comentada as linhas do mobile se for usar web e vice versa, isso no arquivo:
   - CapsulaDoTempo\server\.env
 
- * Execute o servidor:
+ ### Execute o servidor:
  
- **acesse CapsulaDoTempo/server no terminal
+ #### Acesse CapsulaDoTempo/server no terminal
  
- **digite:
+ #### Digite:
  ```console
 npm run dev 
 ``` 
 
- * Frontend: 
+ ### Frontend: 
  
- **acesse CapsulaDoTempo/web no terminal
+ #### Acesse CapsulaDoTempo/web no terminal
  
- **digite:
+ #### Digite:
  ```console
 npm run dev 
 ``` 
 
-* Mobile:
+### Mobile:
 
-**acesse CapsulaDoTempo/mobile no terminal
-**instale o Expo Go
+#### Acesse CapsulaDoTempo/mobile no terminal
+#### Instale o Expo Go
 
- **digite um dos comandos abaixo de acordo com o dispositivo usado para teste:
+ #### Digite um dos comandos abaixo de acordo com o dispositivo usado para teste:
  ```console
 expo start --android
 expo start --ios
